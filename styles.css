@@ -1,24 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 0;
-        }
-        h1 {
-            color: #3d3d3d;
-        }
-        h2 {
-            color: #5a5a5a;
-        }
-        .ingredients, .instructions {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: square;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-    
+h1 {
+    color: #3d3d3d;
+    text-align: center; /* Centers the title */
+
+}
+
+h2 {
+    color: #5a5a5a;
+    margin-left: 50px;
+}
+
+.ingredients, .instructions {
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    max-width: 50%; /* Makes the image smaller (50% of the container width) */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    border-radius: 10px;
+}
